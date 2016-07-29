@@ -1,9 +1,9 @@
 Param(
-    [string] $AppService_RG = 'Premium',
-	[string] $AppService_Name = 'Premium',
-    [string] $LogicApp_RG = 'RSSCustomerSupport',
-    [string] $LogicApp_Name = 'RSS-Reddit-Message',
-    [string] $subscriptionId = '80d4fe69-c95b-4dd2-a938-9250f1c8ab03'
+    [string] $AppService_RG = '<app-service-rg>',
+    [string] $AppService_Name = '<app-service-name>',
+    [string] $LogicApp_RG = '<logic-app-rg>',
+    [string] $LogicApp_Name = '<logic-app-name>',
+    [string] $subscriptionId = '<subscription-id>'
 )
 
 Login-AzureRmAccount 
